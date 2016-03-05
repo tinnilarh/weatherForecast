@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .style {
   width: 100%;
   height: 100%; }
@@ -32,11 +33,31 @@
     float: right;
     margin-right: 20px; }
 
+/*.my-component {
+    height:100%;
+    width:100%;
+    background-color: #6A95C7;
+    text-align: center;
+}*/
 .my-component {
   height: 100%;
   width: 100%;
-  background-color: #6A95C7;
+  background-image: url("https://images.unsplash.com/uploads/14122598319144c6eac10/5f8e7ade?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&s=b284ec8e04b065a9ffefe8a2aff15e82");
   text-align: center; }
+
+​
+.my-component button {
+  font-size: 30px;
+  font-family: sans-serif;
+  margin-top: 25%;
+  border: 2px white solid; }
+
+​
+#boxText p {
+  color: white;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 10px; }
 
 body, html {
   width: 100%;
